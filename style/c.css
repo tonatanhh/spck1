@@ -1,0 +1,410 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    display: inline-flex;
+    width: 100%;
+    background-color: #ffffffff;
+    height: 68px ;
+    padding: 6px 0px ;
+    box-shadow: 0px 5px 14px rgb(180, 176, 176) ;
+    position: relative;
+}
+.menu li{
+    display: inline-block;
+    height: 100%;
+}
+.menu li a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px ;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 10px ;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+}
+.nav div{
+    display: inline-flex;
+}
+.sign-in{
+    font-size:17px ;
+    position: absolute;
+    right: 6px;
+    bottom:13px ;
+    background-color: green ;
+    height: 55px;
+    width: 170px;
+    align-items: center;
+    text-align: center;
+}
+.sign-in a{
+    color: #ffffffff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.sign-in:hover{
+    background-color: #33FF86;
+}
+.menu{
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+.img-thien-nhien{
+    position: relative;
+}
+.information1{
+    position: absolute;
+    width: 35%;
+    height: 250px;
+    bottom: -23px;
+    left: 86px;
+    color: #ffffffff;
+}
+.information1 hr{
+    background-color: #ffffffff;
+    width: 21%;
+    height: 2px;
+}
+.information1 h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.information1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.content{
+    height: 800px;
+    width: 50%;
+}
+.content{
+    display: block;
+    width: 100%;
+}
+.content span{
+    display: block;
+    font-size: 24px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 51%;
+    margin: auto;
+    margin-top: 20px;
+}
+.baotamnhin{
+    position: relative;
+}
+.tamnhin{
+    position: absolute;
+    bottom: 310px;
+    width: 100%;
+    text-align: center;
+}
+.tamnhin h1{
+    text-transform: uppercase;
+    color: #ffffffff;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tamnhin hr{
+    height: 5px;
+    width: 50px;
+    background-color: #ffffffff;
+    margin: auto;
+    margin-top: 10px;
+}
+.contenttamnhin{
+    width: 100%;
+}
+.contenttamnhin p{
+    width: 51%;
+    margin: auto;
+    font-size:24px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px ;
+}
+.footer{
+    margin-bottom: 30px;
+}
+.footer img{
+    width: 145px;
+    height: 100px;
+}
+.footer h2{
+    margin-top: 25px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.onmt{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+.onmt h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px 0px;
+    line-height: 1.4em;
+}
+.onmt h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.onmt p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+.onmt img{
+    width: 453px;
+    height: 450px;
+}
+.onmtkk{
+    width: 60%;
+    margin: auto;
+}
+.onmtkk h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    margin-top:20px ;
+}
+.onmtkk p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 1.7em;
+    margin: 20px 0px;
+}
+.onmtkk b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.onmtkk img{
+    width: 452px;
+    height: 350px;
+}
+.onmtkk ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 1.7em;
+    margin: 20px 0px;
+}
+.onmtkk ul{
+    margin-left: 58px;
+}
+.quantam{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+.quantam h1{
+    display: inline-block;
+}
+.taiche{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 73%;
+    margin: auto;
+}
+.taiche h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 20px 0px ;
+}
+.taiche p{
+    font-size: 19px;
+    margin: 20px 0px;
+}
+.taiche ul li{
+    font-size: 19px;
+    margin: 20px 0px;
+}
+.taiche ul{
+    margin-left: 62px ;
+}
+.taiche b{
+    font-size: 22px;
+    margin: 20px 0px;
+}
+.anhchung{
+    width: 100%;
+    margin: 15px 0px; 
+}
+.anhchung img{
+    width: 100%;
+}
+.anhchung p{
+    margin: 0px;
+    padding: 5px 0px;
+    width: 100%;
+    background-color: #F8FBFF;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.menudacap{
+    position: absolute;
+    background-color: #ffffffff;
+    z-index: 10; 
+    width: 359px;
+    left: 350px;
+    display: none;
+    border: 2px solid black;
+}
+.menudacap li{
+    width: 100%;
+    border-bottom:2px solid black  ;
+}
+.menudacap li a{
+    display: flex;
+    color: black;
+    font-size:  19px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 44px;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.menu li:hover .menudacap{
+    display: block;
+}
+.menudacap li:hover{
+    background-color: rgb(50,205,50);;
+}
+.menudacap li:hover a{
+    color: #ffffffff
+}
+.menu>li>a{
+    position: relative;
+}
+.menu>li>a::before{ 
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: green ;
+    position: absolute;
+    bottom: 2px;
+    transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.menu>li:hover>a::before{
+    display: block;
+    width: 100%;
+}
+.footerdown{
+    background-color: rgb(160,82,45);
+    display: flex;
+    height: 400px;
+}
+.footerdown div b{
+    color: #ffffffff;
+    display: block;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerdown div a{
+    color: #ffff;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerdown div p{
+    color: #ffff;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerdown div{
+    margin-top:20px ;
+    margin-right: 235px ;
+}
+.news-box{
+    width: 100%;
+}
+.news-box div{
+    height: 670px;
+    width: 430px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 5px rgb(177, 173, 173) ;
+    display: inline-block;
+    margin: 47px 36px ;
+}
+.news-box img{
+    height: 269px;
+    width: 100%;
+}
+.news-box h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.news-box p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+.news-box span{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.news-box h4{
+    position: relative;
+    font-size: 38px;
+    bottom: -43px;
+    left: -153px;
+    display: inline-block;
+}
+.link{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+.link:hover h3{
+    color: #33FF86;
+}
+.link:hover p{
+    color: #33FF86;
+}
+.link:hover h4{
+    color: #33FF86;
+}
+.up-ar{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #ffff;
+    color: black;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    border: 2px solid black ;
+}
+.up-ar i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.up-ar a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.link img{
+    transition: all 0.3s ease-in-out ;
+}
+.link:hover img{
+    transform: scale(1.1) ;
+}
